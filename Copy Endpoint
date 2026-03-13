@@ -1,0 +1,15 @@
+Copy Endpoint
+##########################################################################
+In your API → go to Stages → Select default.
+
+Copy the Invoke URL (e.g., https://xxxxxx.execute-api.us-east-1.amazonaws.com).
+
+Open your browser/Postman and test:
+
+<https://xxxxxx.execute-api.us-east-1.amazonaws.com/funfact>
+
+You should see something like:
+#########################################################################
+{
+  "fact": "The name 'Amazon Web Services' was first used back in 2002."
+}
