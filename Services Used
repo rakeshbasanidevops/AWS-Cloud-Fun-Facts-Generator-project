@@ -1,0 +1,8 @@
+Services Used
+---------------------------------------------------------
+AWS Lambda: Serverless backend to generate cloud fun facts.
+Amazon API Gateway: Exposes the Lambda as a REST API endpoint.
+Amazon DynamoDB: Database for storing facts.
+Amazon Bedrock: Generative AI to make facts witty.
+AWS Amplify: Hosting service for the React frontend.
+AWS IAM: Identity and Access Management for secure permissions.
