@@ -1,0 +1,11 @@
+Database Version (DynamoDB + Lambda)
+###################################################
+
+In Stage 1, your Lambda returned hardcoded fun facts. 
+
+That worked, but it’s not scalable you’d have to update the code every time you wanted to add new facts.
+
+In this stage, you’ll store fun facts in a DynamoDB table and fetch them dynamically. 
+
+This makes your API flexible, scalable, and production-ready.
+
