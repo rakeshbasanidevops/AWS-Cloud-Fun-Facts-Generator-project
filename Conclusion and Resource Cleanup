@@ -1,0 +1,58 @@
+1.6 Conclusion and Resource Cleanup
+###############################################################################################################################################################################
+Congratulations by completing this project, you've built more than just a random fact app. You've engineered a real-world serverless cloud application that demonstrates how to build, scale, and enhance user experiences on AWS, while keeping things fun and interactive!
+
+This setup reflects how modern applications are built today: serverless-first architecture, API-driven communication, database-backed data storage, and Generative AI integration for added engagement.
+
+What You've Built
+
+Deployed an AWS Lambda function to serve random cloud fun facts.
+Integrated API Gateway to expose Lambda as a REST API endpoint.
+Enhanced functionality by storing facts in a DynamoDB table.
+Configured IAM roles and permissions securely for DynamoDB and Bedrock access.
+Integrated Amazon Bedrock (GenAI) with Claude AI to rephrase cloud facts in a witty and engaging style.
+This isn't just a fun project, it's a solid foundation for modern serverless applications that combine databases, APIs, and AI.
+##################################################################################################################################################################################
+
+Clean-up Steps
+
+To avoid ongoing AWS charges, remember to delete the resources you created:
+##################################################################################################################################################################################
+
+Amplify App
+
+Go to AWS Amplify Console
+
+Select your app → Actions → Delete App
+
+API Gateway
+
+Go to API Gateway Console
+
+Select your FunfactsAPI → Actions → Delete
+
+Lambda Function(s)
+
+Go to Lambda Console
+
+Delete functions you created (e.g., CloudFunFacts)
+
+Clean up associated log groups in CloudWatch Logs (/aws/lambda/...)
+
+DynamoDB Table
+
+Go to DynamoDB Console
+
+Select the CloudFacts table → Actions → Delete table
+
+IAM Role (Optional)
+
+Go to IAM > Roles
+
+Delete the custom role created for your Lambda (e.g., CloudFunFacts-role-xyz)
+
+CloudWatch Logs
+
+Go to CloudWatch > Log groups
+
+Delete Lambda function log groups (they start with /aws/lambda/)
