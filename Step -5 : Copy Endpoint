@@ -13,3 +13,18 @@ You should see something like:
 {
   "fact": "The name 'Amazon Web Services' was first used back in 2002."
 }
+##########################################################################
+
+At this point, you’ve built a fully functional serverless API:
+
+A Python Lambda that returns random cloud facts.
+
+An API Gateway endpoint that makes it accessible over the internet.
+
+This is your foundation. In the next stages, we’ll:
+
+Store facts in DynamoDB instead of hardcoding them.
+
+Make them witty using GenAI models.
+
+Add a frontend with Amplify so users can interact visually.
