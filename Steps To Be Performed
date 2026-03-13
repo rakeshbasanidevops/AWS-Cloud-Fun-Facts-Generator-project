@@ -1,4 +1,5 @@
 Steps To Be Performed
+--------------------------------------------------
 Deploy Backend with AWS Lambda + API Gateway
 Enhance with DynamoDB (store facts in a table)
 Integrate Amazon Bedrock (GenAI) to make facts witty
