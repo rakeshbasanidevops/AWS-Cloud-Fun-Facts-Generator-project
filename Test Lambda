@@ -1,0 +1,16 @@
+Step 3: Test Lambda
+--------------------------------------------------------------------
+Click Test → Create a new test event → Name: TestEvent.
+
+Leave the default JSON ({}) as-is.
+
+Run the test > Save and Click Invoke.
+
+You should see a random fun fact returned in the response.
+
+----------------------------------------------------------------------
+What’s happening here?
+
+You’re manually invoking the Lambda in the console.
+
+AWS runs your code in a temporary environment, then destroys it (that’s the beauty of serverless).
