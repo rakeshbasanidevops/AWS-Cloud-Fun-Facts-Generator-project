@@ -1,0 +1,26 @@
+Create API Gateway
+------------------------------------------------------------------------------
+Now we’ll make this Lambda accessible through a public API endpoint.
+------------------------------------------------------------------------------
+Go to API Gateway → Click Create API.
+
+Select HTTP API (simpler and cheaper than REST API).
+
+API Name → FunfactsAPI
+
+Integration → Select your Lambda function CloudFunFacts > Click Next.
+
+Add a route:
+
+Method: GET
+
+Path: /funfact
+
+Click Next > Create.
+
+#########################################################################
+What’s happening here?
+#########################################################################
+API Gateway acts as the front door to your Lambda.
+
+When someone hits /funfact with a GET request, API Gateway forwards it to Lambda, then returns the response.
