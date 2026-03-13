@@ -1,0 +1,15 @@
+Step 1: Create a Lambda Function
+---------------------------------------------------------------------
+#Go to AWS Management Console → Search for Lambda.
+#Click Create function.
+#Select Author from scratch.
+#Function name: CloudFunFacts
+#Runtime: Python 3.13
+#Permissions: Create a new role with basic Lambda permissions.
+
+Lets : Deep Dive on the below ?
+-----------------------------------------------------------------------------------------------------------------------------
+#Lambda is AWS’s serverless compute service — you don’t need to manage servers, scaling, or patching.
+#By creating this function, you’re telling AWS: “Whenever this function is triggered, run my Python code and return the output.”
+#The basic Lambda role gives it permission to write logs into CloudWatch so you can debug later.
+#Click Create function
